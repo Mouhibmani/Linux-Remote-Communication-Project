@@ -1,0 +1,109 @@
+Script started on 2023-12-03 16:21:00+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="53"]
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ clearnslookupnslookup exa[K./Serveur 1234script.sh Client.c Serveur.c [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K./script.sh Client.c Serveur.c [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004lClient compilation successful
+[01m[KServer_2.c:[m[K In function ‘[01m[KhandleClientRequest[m[K’:
+[01m[KServer_2.c:102:13:[m[K [01;35m[Kwarning: [m[Ka label can only be part of a statement and a declaration is not a statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  102 |             [01;35m[Kconst[m[K char *message = "Invalid choice. Please try again.";
+      |             [01;35m[K^~~~~[m[K
+Server compilation successful
+Compilation completed successfully
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./script.sh[6Pclearnslookupnslookup exa[K./Serveur 1234
+[?2004lbash: ./Serveur: No such file or directory
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./Serveur 1234[3Pscript.shServeur 1234[K./Serveur 1234[1P
+[?2004lServer is listening on port 1234...
+Connection accepted from 127.0.0.1
+^C
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./Server 1234[1@u[C[C[C[C[C[C[1P[C[C[C[C[C[C
+[?2004lServer is listening on port 1234...
+^C
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./Server 1234[1@u[C[C[C[C[C[C[3Pscript.sh
+[?2004lClient compilation successful
+[01m[KServer_2.c:[m[K In function ‘[01m[KhandleClientRequest[m[K’:
+[01m[KServer_2.c:102:13:[m[K [01;35m[Kwarning: [m[Ka label can only be part of a statement and a declaration is not a statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  102 |             [01;35m[Kconst[m[K char *message = "Invalid choice. Please try again.";
+      |             [01;35m[K^~~~~[m[K
+Server compilation successful
+Compilation completed successfully
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./script.shServer 1234
+[?2004lServer is listening on port 1234...
+Connection accepted from 127.0.0.1
+Connection accepted from 127.0.0.1
+Connection accepted from 127.0.0.1
+Connection accepted from 127.0.0.1
+Connection accepted from 127.0.0.1
+^C
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ 
+[?2004l[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ 
+[?2004l[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ clear./Server 1234[2Pscript.sh
+[?2004lClient compilation successful
+In file included from [01m[KServer_2.c:1[m[K:
+[01m[KS.h:[m[K In function ‘[01m[KhandleClientRequest[m[K’:
+[01m[KS.h:105:13:[m[K [01;35m[Kwarning: [m[Ka label can only be part of a statement and a declaration is not a statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  105 |             [01;35m[Kconst[m[K char *message = "Invalid choice. Please try again.";
+      |             [01;35m[K^~~~~[m[K
+Server compilation successful
+Compilation completed successfully
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./script.sh[6Pclear./Server 1234
+[?2004lServer is listening on port 1234...
+Connection accepted from 127.0.0.1
+Connection accepted from 127.0.0.1
+^C
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./Server 1234[2Pscript.sh
+[?2004lClient compilation successful
+In file included from [01m[KServer_2.c:1[m[K:
+[01m[KS.h:[m[K In function ‘[01m[KhandleClientRequest[m[K’:
+[01m[KS.h:105:13:[m[K [01;35m[Kwarning: [m[Ka label can only be part of a statement and a declaration is not a statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  105 |             [01;35m[Kconst[m[K char *message = "Invalid choice. Please try again.";
+      |             [01;35m[K^~~~~[m[K
+Server compilation successful
+Compilation completed successfully
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./script.shServer 1234[2Pscript.shServer 1234
+[?2004lServer is listening on port 1234...
+Connection accepted from 127.0.0.1
+^C
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./Server 1234[2Pscript.shServer 1234[2Pscript.sh
+[?2004lClient compilation successful
+In file included from [01m[KServer_2.c:1[m[K:
+[01m[KS.h:[m[K In function ‘[01m[KhandleClientRequest[m[K’:
+[01m[KS.h:105:13:[m[K [01;35m[Kwarning: [m[Ka label can only be part of a statement and a declaration is not a statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  105 |             [01;35m[Kconst[m[K char *message = "Invalid choice. Please try again.";
+      |             [01;35m[K^~~~~[m[K
+Server compilation successful
+Compilation completed successfully
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./script.shServer 1234
+[?2004lServer is listening on port 1234...
+Connection accepted from 127.0.0.1
+Connection accepted from 127.0.0.1
+^X
+^C
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ clear./Server 1234[2Pscript.sh
+[?2004lClient compilation successful
+In file included from [01m[KServer_2.c:1[m[K:
+[01m[KS.h:[m[K In function ‘[01m[KhandleClientRequest[m[K’:
+[01m[KS.h:105:13:[m[K [01;35m[Kwarning: [m[Ka label can only be part of a statement and a declaration is not a statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  105 |             [01;35m[Kconst[m[K char *message = "Invalid choice. Please try again.";
+      |             [01;35m[K^~~~~[m[K
+Server compilation successful
+Compilation completed successfully
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./script.sh
+[?2004lClient compilation successful
+In file included from [01m[KServer_2.c:1[m[K:
+[01m[KS.h:[m[K In function ‘[01m[KhandleClientRequest[m[K’:
+[01m[KS.h:105:13:[m[K [01;35m[Kwarning: [m[Ka label can only be part of a statement and a declaration is not a statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  105 |             [01;35m[Kconst[m[K char *message = "Invalid choice. Please try again.";
+      |             [01;35m[K^~~~~[m[K
+Server compilation successful
+Compilation completed successfully
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ ./script.sh[6Pclear./Server 1234
+[?2004lServer is listening on port 1234...
+Connection accepted from 127.0.0.1
+Connection accepted from 127.0.0.1
+Connection accepted from 127.0.0.1
+Error opening file: No such file or directory
+Connection accepted from 127.0.0.1
+^C
+[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m~/TP3[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;aziz@Linux: ~/TP3[01;32maziz@Linux[00m:[01;34m
